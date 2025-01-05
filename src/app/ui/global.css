@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.navbar nav{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.navbar nav a{
+  font-size: 14px;
+  font-weight: 600;
+}
